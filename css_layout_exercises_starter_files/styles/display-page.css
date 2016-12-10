@@ -1,0 +1,38 @@
+main {
+	font-size: 0;
+}
+
+.green, .blue {
+ height: 200px;
+ border: 1px black solid;
+ display: inline-block;
+ width: 50%;
+}
+
+.green {
+ background-color: green;
+}
+
+.blue {
+ background-color: blue;
+}
+
+.gray, .black, .yellow {
+ height: 300px;
+ border: 1px black solid;
+ display: inline-block;
+ width: 33.33%;
+
+}
+
+.gray {
+ background-color: gray;
+}
+
+.black {
+ background-color: black;
+}
+
+.yellow {
+ background-color: yellow;
+}
