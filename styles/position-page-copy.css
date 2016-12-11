@@ -1,0 +1,51 @@
+.logo {
+ border: 1px solid black;
+ border-radius: 100%;
+ margin-left: 60px;
+ margin-right: 60px;
+ }
+
+nav {
+ background-color: gray;
+ width: 100%;
+}
+
+nav ul {
+ list-style-type: none;
+ top: 50px;
+ display: inline-block;
+ position: fixed;
+}
+
+li {
+	display: inline;
+}
+
+.greenbox {
+	width: 600px;
+	height: 300px;
+	border: 10px green dotted;
+	position: relative;
+	left: 300px;
+	top: 200px;
+}
+
+.kitty, .dog {
+	border: 1px solid blue;
+	height: 200px;
+	width: 200px;
+}
+
+.kitty {
+ position: absolute;
+ margin-left: 200px;
+ top: 250px;
+}
+
+.dog {
+	position: absolute;
+	margin-left: 800px;
+	margin-top: 100px;
+}
+
+
